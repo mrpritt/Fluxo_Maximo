@@ -19,7 +19,6 @@ There are 11 graphs types, numbered 1, 2, ..., 11, which is the argument `functi
 
 | Parameter | Abbreviation | Comment |
 |-|-|-|
-| Number of vertices | $n$ |
 | Number of rows | $r$ |
 | Number of columns | $c$ |
 | Maximum capacity | $C$ | Capacities are drawn from $U[1,C]$ |
@@ -34,7 +33,7 @@ The graph types are:
 |   2 | Random level   | r | c | C | $rc+2$  | $2r + 3(c-1)r$ |
 |   3 | Random 2-level | r | c | C | $rc+2$  | $2r + 3(c-1)r$ |
 |   4 | Matching       | n | d |   | $2n+2$  | $n(d+2)$       |
-|   5 | Square Mesh    | s | D | C | $d^2+2$ | $(d-1)dD+2d$ |
+|   5 | Square Mesh    | s | d | C | $d^2+2$ | $(d-1)dD+2d$ |
 |   6 | BasicLine      | n | m | D | $nm+2$ | $nmD+2m$ |
 |   7 | ExpLine        | n | m | D | $nm+2$ | $nmD+2m$ |
 |   8 | DExpLine       | n | m | D | $nm+2$ | $nmD+2m$ |
@@ -63,21 +62,23 @@ Bipartite graph over $V=\{s\}\cup V_1\cup V_2\cup\{t}$, with $V_1=[n]$, $V_2=[n+
 
 ## Square Mesh
 
+A square mesh of size $s\times s$ with the source connected to the first, and the sink connected to the last column. Each vertex $(i,j)$ connects to valid vertices $(i+k-1,j+1)$, $k\in[d]$, i.e. has degree at most $d$.
+
 ## Basic Line
 
 Linha, grau D
 
 ## Exponential Line
 
-Line, degree $D$.
+Line, degree $d$.
 
 ## Double Exponential
 
-Line, degree $D$.
+Line, degree $d$.
 
 ## DinicBadCase
 
-Line. Causes n augmentation phases.
+Line. Causes $n$ augmentation phases.
 
 ## GoldBadCase
 
