@@ -66,7 +66,7 @@ A square mesh of size $s\times s$ with the source connected to the first, and th
 
 ## Basic Line
 
-Linha, grau D
+Line, degree $d$.
 
 ## Exponential Line
 
