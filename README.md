@@ -67,7 +67,7 @@ A square mesh of size $s\times s$ with the source connected to the first, and th
 
 ## Basic Line
 
-A line $L=\\{s\\}\cup [nm]\cup\\{t\\}$. Source and sink fully connect to the $m$ first resp. last vertices (arcs $(s,i)$, $i\in[m]$, and $(i,t)$, $i\in[nm-m+1,nm]$), each each vertex connects to $d$ of the next $md$ vertices (arcs $(i,j)$, $j\in J$, $J\in_U\binom{[md]}{3}$).
+A line $L=\\{s\\}\cup [nm]\cup\\{t\\}$. Source and sink fully connect to the $m$ first resp. last vertices (arcs $(s,i)$, $i\in[m]$, and $(i,t)$, $i\in[nm-m+1,nm]$), each each vertex connects to $d$ of the next $md$ vertices (arcs $(i,j)$, $j\in J$, $J\in_U\binom{[md]}{d}$).
 
 ## Exponential Line
 
@@ -75,7 +75,7 @@ Same as a basic line, but with different capacities. A arcs $(i,j)$ of length $l
 
 ## Double Exponential Line
 
-A Basic Line, but vertices connect to predecessors and successors, i.e. $J\in_U\binom{[-m,m]\setminus\\{0\\}}{2}$, with weights as for the Exponential Line.
+A Basic Line, but vertices connect to predecessors and successors, i.e. $J\in_U\binom{[-md,md]\setminus\\{0\\}}{d}$, with weights as for the Exponential Line.
 
 ## DinicBadCase
 
