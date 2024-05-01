@@ -75,7 +75,7 @@ Same as a basic line, but with different capacities. A arcs $(i,j)$ of length $l
 
 ## Double Exponential Line
 
-A Basic Line, but vertices connect to predecessors and successors, i.e. $J\in_U\binom{[-m,m]}{2}$, with weights as for the Exponential Line.
+A Basic Line, but vertices connect to predecessors and successors, i.e. $J\in_U\binom{[-m,m]\setminus\\{0\\}}{2}$, with weights as for the Exponential Line.
 
 ## DinicBadCase
 
