@@ -33,7 +33,7 @@ The graph types are:
 |   2 | Random level   | r | c | C |   | $rc+2$  | $2r + 3(c-1)r$ |
 |   3 | Random 2-level | r | c | C |   | $rc+2$  | $2r + 3(c-1)r$ |
 |   4 | Matching       | n | d | C |   | $2n+2$  | $n(d+2)$       |
-|   5 | Square Mesh    | s | d | C |   | $d^2+2$ | $(d-1)dD+2d$ |
+|   5 | Square Mesh    | s | d | C |   | $s^2+2$ | $(s-1)sd+2s$ |
 |   6 | BasicLine      | n | m | d | C | $nm+2$  | $nmd+2m$ |
 |   7 | ExpLine        | n | m | d | C | $nm+2$  | $nmd+2m$ |
 |   8 | DExpLine       | n | m | d | C | $nm+2$  | $nmd+2m$ |
