@@ -28,7 +28,7 @@ There are 11 graphs types, numbered 1, 2, ..., 11, which is the argument `functi
 The graph types are:
 
 | No. | Name | Arg1 | Arg2 | Arg3 | Arg4 | n | m |
-|--|--|--|--|--|--|-|
+|--|--|--|--|--|--|-|-|
 |   1 | Mesh           | r | c | C |   | $rc+2$  | $2r + 3(c-1)r$ |
 |   2 | Random level   | r | c | C |   | $rc+2$  | $2r + 3(c-1)r$ |
 |   3 | Random 2-level | r | c | C |   | $rc+2$  | $2r + 3(c-1)r$ |
