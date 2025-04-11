@@ -79,7 +79,7 @@ A Basic Line, but vertices connect to predecessors and successors, i.e. $J\in_U\
 
 ### DinicBadCase
 
-A line $L=[n]$, with arcs to previous and next vertices (arcs $(i,i-1)$, $i\in[2,n]$, and $(i,i+1)$, $i\in[n-1]$). Causes $n$ augmentation phases.
+A line $L=[n]$, with arcs $(i,i-1)$, $i\in[2,n]$, and direct arcs $(i,n)$, $i\in[n-1]$. Causes $n$ augmentation phases.
 
 ### GoldBadCase
 
